@@ -6,6 +6,11 @@ public class PersonagemMagico {
 
     String poderMagico;
 
+    HabilidadeEspecial habilidadeEspecial;
+
+
+    public PersonagemMagico(){
+    }
 
     public PersonagemMagico(String nome, int nivelEnergia, String poderMagico) {
         this.nome = nome;
